@@ -19,7 +19,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ch
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 luckyCode1992
@@ -33,8 +33,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  A Jekyll theme with JavaScript powers.
-  Open `_config.yml` to edit this text.
+  你好哦.
 
 # A list of keywords for your blog
 keywords:              []
