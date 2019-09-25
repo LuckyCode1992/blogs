@@ -113,3 +113,4 @@ To remove the border radius, open (or create) `_sass/my-inline.scss` and add the
 ~~~css
 .card, .pagination-item { border-radius: 0!important; }
 ~~~
+[docs]: ../docs/7.5.2/index.md
