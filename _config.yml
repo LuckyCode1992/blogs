@@ -12,7 +12,7 @@ description: '这是一个专属个人的博客地址'
 baseurl:     '/blogs' # The subpath of your site, e.g. /blog
 url:         'https://luckycode1992.github.io' # The base hostname & protocol for your site
 twitter:     ''
-github:      ''
+github:      'https://github.com/LuckyCode1992'
 instagram:   ''
 facebook:    ''
 
