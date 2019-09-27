@@ -4,12 +4,11 @@ title: 搭建github pages教程
 tags: [标签1, 标签2, 标签3]
 image: '/images/posts/8.jpg'
 ---
-
-我有一个朋友，她的病情很严重，其他的都是阴性的。有恶心、恶心、恶心的功效.欧洲最高法院，每一地区的最高法院，最高法院对最高法院的指控，最高法院对最高法院的指控，最高法院对最高法院的指控，最高法院对最高法院的指控，最高法院对最高法院的指控，最高法院对.
+Life is hard. We should not give up hope. By the time we have given up, we are finished. Chances are always there. We have to grab every single opportunity...to help, to love and to serve. To live our life happier, full of joy, we have to set our goal and even dream big. If we choose the shortest path in life, we will never learn. To be or not to be, we have to be SOMEBODY. The fastest way to gain love is to love others first! Do not hide your talent, your knowledge and your beautiful heart. Go for your dream and live for it.
 
 ##### Todo
 
-Duis id ante elit. Aliquam quis tellus id orci eleifend finibus. Donec consequat justo ligula, eget sodales purus hendrerit at.
+这是正文内容
 
 1. Ut at interdum nunc. Maecenas commodo turpis quis elementum gravida.
 2. Nunc ac sapien tellus. Quisque risus enim, tempus eget porttitor in, pellentesque vel urna.
