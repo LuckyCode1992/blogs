@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The reason we're gathered here on our God-given, much-naeeded day
-tags: [frontpage, jekyll, blog]
+tags: [_posts/2015/12/22/i-think-it-is-time-we-inform-the-senate-that-our-ability-to-use-the-force-has-diminished.markdown]
 image: 'images/posts/8.jpg'
 ---
 
