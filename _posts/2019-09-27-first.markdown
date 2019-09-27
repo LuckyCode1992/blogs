@@ -16,10 +16,10 @@ Life is hard. We should not give up hope. By the time we have given up, we are f
 #### 内容
 
 基本步骤：
+
 1.创建github pages 项目
 
-image: '/images/posts/first/1.png'
-
+![text](/images/posts/8.jpg)
 ![alt]('/images/posts/first/1.png')
 ![alt](/images/posts/first/2.png)
 ![alt](/images/posts/first/3.png)
