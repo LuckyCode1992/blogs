@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The reason we're gathered here on our God-given, much-naeeded day
+title: The 11：10
 tags: [_posts/2015-12-22-the-reason-were-gathered-here-on-our-god-given-much-naeeded-day-of-rest-is-that-we-have-a-polish-hostage.markdown]
 image: '/images/posts/8.jpg'
 ---
