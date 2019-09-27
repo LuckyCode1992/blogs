@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The 11：24
-tags: [2015-12-21-verybody-listen-we-have-to-put-a-barrier-between-us-and-the-snakes.markdown]
+title: The 11：30
+tags: [_posts/2015/12/22/if-you-have-an-opportunity-to-use-your-voice-you-should-use-it-all-the-time.markdown]
 image: 'images/posts/8.jpg'
 ---
 
