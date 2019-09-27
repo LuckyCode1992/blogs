@@ -8,3 +8,16 @@ image: '/images/posts/8.jpg'
 这是我的第一个博客，既然是第一个博客，那就将我本次怎么搭建个人博客的过程写下来，供大家参考吧。
 首先说一下，本次是基于github pages 搭建的博客。
 所以，首先你要自己有一个github的账号，如果没有，就自己申请一个吧，很简单，就不赘述了，百度就知道。
+
+### Todo
+这里是todo 的内容
+
+### Graphic design
+
+这里是Graphic design 的内容
+
+> Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana
+
+这里是Graphic design 2 的内容
+
+![alt](/images/posts/1.jpg)
