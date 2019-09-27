@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The 11：10
-tags: [_posts/2015-12-22-the-reason-were-gathered-here-on-our-god-given-much-naeeded-day-of-rest-is-that-we-have-a-polish-hostage.markdown]
-image: '/images/posts/8.jpg'
+title: The 11：12
+tags: [2015-12-22-the-reason-were-gathered-here-on-our-god-given-much-naeeded-day-of-rest-is-that-we-have-a-polish-hostage.markdown]
+image: 'images/posts/8.jpg'
 ---
 
 I can remember about 4 years ago, I started to make HTML templates for ThemeForest. Unfortunately, I failed to pass the quality stage and I was not getting enough feedback from them. I was getting a general sentence saying that my item is not ready yet and the design quality is not unique enough.
