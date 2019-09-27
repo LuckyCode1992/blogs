@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The reason we're gathered here on our God-given, much-naeeded day
-tags: [_posts/2015/12/22/i-think-it-is-time-we-inform-the-senate-that-our-ability-to-use-the-force-has-diminished.markdown]
+tags: [_posts/2015-12-22-the-reason-were-gathered-here-on-our-god-given-much-naeeded-day-of-rest-is-that-we-have-a-polish-hostage.markdown]
 image: 'images/posts/8.jpg'
 ---
 
