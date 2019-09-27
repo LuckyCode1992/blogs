@@ -9,8 +9,8 @@
 title:       LuckyCode1992
 email:       '2214576751@qq.com'
 description: '这是一个专属个人的博客地址'
-baseurl:     'blogs/' # The subpath of your site, e.g. /blog
-url:         'https://luckycode1992.github.io/' # The base hostname & protocol for your site
+baseurl:     '/blogs' # The subpath of your site, e.g. /blog
+url:         'https://luckycode1992.github.io' # The base hostname & protocol for your site
 twitter:     ''
 github:      ''
 instagram:   ''
