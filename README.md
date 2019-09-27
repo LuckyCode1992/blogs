@@ -1,139 +1,213 @@
-LOFFER是个可以帮助你get off from LOFTER的软件（我知道这个pun很烂）。
+# Type: Minimal and Clean Free Jekyll Theme
 
-这是一个可以通过Fork直接发布在GitHub的Jekyll博客，你不需要编写代码或使用命令行即可获得一个部署在GitHub的博客。
+<img alt="Type: Minimal and Clean Free Jekyll Theme" src="https://user-images.githubusercontent.com/626005/63093493-c3daa880-bf65-11e9-860e-da88047cce24.png">
 
-当你看到不认识的术语，请忽略它，我知道程序员不说人话，我都不是程序员但是我已经开始意识到这是因为我们不知道这些概念用人话怎么说。
+- [Configurations](#configurations)
+- [Deployment](#deployment)
+- [Posts](#posts)
+- [Pages](#pages)
+- [Navigation](#navigation)
+- [Disqus Comments](#disqus-comments)
+- [Google Analytics](#google-analytics)
+- [Social Media Links](#social-media-links)
+- [Update favicon](#update-favicon)
 
-以下我会尽量用人话解说如何使用这个……LOFFER。
+### Configurations
 
-## 注意
+Type theme comes with different customizations in the `_config.yml` file:
 
-LOFFER是一个**博客模板**，使用GitHub Pages发布个人博客是没有任何问题的。 **但是:**
+```sh
+title:       Type
+email:       ''
+description: ''
+baseurl:     '' # The subpath of your site, e.g. /blog
+url:         '' # The base hostname & protocol for your site
+twitter:     ''
+github:      ''
+instagram:   ''
+facebook:    ''
 
-- **请勿发布成人向内容** 
-- **不要将大量图片上传到GitHub**
+markdown:  kramdown
+permalink: pretty
+paginate:  60
 
-如有疑问，请阅读[GitHub Pages官方说明](https://pages.github.com/)。
+sass:
+  style: compressed
 
-另外，同人作品更好的发布平台是[AO3](https://archiveofourown.org/)，你想你发在AO3还有tag还有kudos还有人看，是吧？
+gems:
+  - jekyll-paginate
+  - jekyll/tagging
 
+include:
+  - _pages
 
-## 如何使用
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
-首先，这个博客主题适应手机阅读，但是，要使用它建立你自己的博客，你需要上电脑操作。
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
 
-### 第一步 Fork到你的GitHub
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+```
 
-请点击[GitHub](https://github.com/)，注册一个GitHub账户。我们可以理解Git就是个文件版本管理系统，本身并不需要会代码即可使用。
+### Deployment
 
-现在你看到的LOFFER，是作为一个GitHub上的Repository（代码库）存在的，你可以把这个代码库复制到你自己的GitHub账户中，这个操作叫做Fork。
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
 
-点击[LOFFER](https://github.com/FromEndWorld/LOFFER)，进入LOFFER的GitHub Repository页面，然后点Fork：
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-![gif](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fork.gif)
+### Posts
 
-然后你立刻就可以看到LOFFER再次出现，这次它已经属于你了，这里我建议你重命名它，点击settings，给你的博客起个名字（请尽量使用字母而非中文）。
+To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/rename.png)
+The following is a post file with different configurations you can add as an example:
 
-然后，向下拉页面，你会看到“GitHub Pages”，这是GitHub内置的网站host服务，选择master，如图所示：
+```sh
+---
+layout: post
+title: Welcome to Jekyll!
+featured: true
+tags: [frontpage, jekyll, blog]
+image: '/images/welcome.jpg'
+---
+```
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/pages.png)
+You can set the author, featured or not, tags, and the post image.
 
-在几秒钟后，刷新此页面，你通常会看到这个绿色的东西（如果没看到，多等一会），你的网站已经发布成功，点击这个链接，即可查看：
+The `featured` key is to mark the post as a featured post, this will add a simple star icon (*) to the postcard.
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/published.png)
+To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
 
-你可能会看到网站长得很丑，请继续下一步.
+To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
 
-### 第二步 设置站点信息
+For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
 
-在你的博客的GitHub代码库页面里，选择Code，文件列表里选择_config.yml，点击打开，点击右上角笔形图标修改文档。
+Note that tags are not working with GitHub Pages, that's because the used [jekyll-tagging
+](https://github.com/pattex/jekyll-tagging) plugin is not [whitelisted](https://pages.github.com/versions/) by GitHub.
 
-修改完成后，点击“Commit changes”。每次修改过代码库并且commit后，GitHub Pages都会自动重新发布网站，只要等上几分钟，再次刷新你的博客页面，就会看到你的修改了。
+To make this work, I use [Netlify.com](https://www.netlify.com/) for deployment.
 
-还有一点，**LOFFER使用的是MIT协议，大意就是全部开源随意使用，如果你要保留自己博文的权利，请编辑LICENSE文件，写上类似“_posts中的文档作者保留权利”这样的内容。**
+### Pages
 
-### 第三步 发布博文
+To create a new page, just create a new markdown file inside the `_pages` directory.
 
-在你的博客的GitHub代码库页面里，点开_posts文件夹，这里面就是你的博客文章。
+The following is the `about.md` file that you can find as an example included in the theme with the configurations you can set.
 
-这些文章使用的格式是Markdown，文件后缀名是md，这是一种非常简单易用的有格式文本标记语言，你应该已经注意到，在LOFFER自带的示例性博文中有一篇中文的Markdown语法介绍。
+```sh
+---
+layout: page
+title: About
+image: '/images/pages/about.jpeg'
+---
+```
 
-更简单的办法是使用[Typora](https://typora.io/)，这是一个全图形化界面，全实时预览的Markdown写作软件，非常轻量，而且免费。
+Things you can change are: `title` and `image` path.
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Typora.png)
 
-在发布博文前，你需要在文章的头部添加这样的内容，包括你的文章标题，发布日期，作者名，和tag等。
+### Navigation
 
-    ---
-    layout: post
-    title: LOFFER文档
-    date: 2019-06-02
-    Author: 来自中世界
-    categories: 
-    tags: [sample, document]
-    comments: true
-    --- 
+The navigation on the sidebar will automatically include all the links to the pages you have created.
 
-完成后，保存为.md文件，文件名是date-标题，例如 2019-06-02-document.md (注意这里的标题会成为这个post的URL，所以推荐使用字母而非中文，它不影响页面上显示的标题)，然后上传到_posts文件夹，commit，很快就可以在博客上看到新文章了。
+### Disqus Comments
 
-### 可选：图片怎么办？
+Maxima Theme comes with Disqus comments enabled.
 
-少量图片可以上传到images文件夹，然后在博文中添加。
+Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
-但是GitHub用来当做图床有滥用之嫌，如果你的博客以图片为主，建议选择外链图床，例如[sm.ms](https://sm.ms/)就是和很好的选择。
+```js
+s.src = '//aspirethemes-demo.disqus.com/embed.js';
+```
 
-如果想要寻找更适合自己的图床，敬请Google一下。
+So, if your Disqus shortname is `exampleone`, the final code above should be
 
-在博文中添加图片的Markdown语法是：`![图片名](URL)`
+```js
+s.src = '//exampleone.disqus.com/embed.js';
+```
 
-### 可选：添加评论区
+That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
-LOFFER支持Disqus评论，虽然Disqus很丑，但是它是免费的，设置起来又方便，因此大家也就不要嫌弃它。
+And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
-首先，注册一个[Disqus](https://disqus.com/)账户，我们可以选择这个免费方案：
+### Google Analytics
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Disqus-plan.png)
+To integrate Google Analytics, open `_includes/analytics.html`, and add your Google Analytics code.
 
-注册成功后，新建一个站点（site），以LOFFER为例设置步骤如下：
+### Social Media Links
 
-首先站点名LOFFER，生成了shortname是loffer，类型可以随便选。
+Social media links included in `_includes/footer.html` file.
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Disqus-1.png)
+The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
 
-安装时选择Jekyll。
+Twitter
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Disqus-2.png)
+```html
+<span data-icon='ei-sc-twitter' data-size='s'></span>
+```
 
-最后填入你的博客地址，语言可以选中文，点Complete，即可！
+Facebook
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Disqus-3.png)
+```html
+<span data-icon='ei-sc-facebook' data-size='s'></span>
+```
 
-然后需要回到你的博客，修改_config.yml文件，在disqus字段填上你的shortname，commit，完成！
+Instagram
 
-### 导入LOFTER的内容
+```html
+<span data-icon='ei-sc-instagram' data-size='s'></span>
+```
 
-这部分由于LOFTER的导出文件十分~~优秀~~，需要另外解决。
+Pinterest
 
-诸位可以使用[墨问非名太太的脚本](http://underdream.lofter.com/post/38ea7d_1c5d8a983)，其中选择Jekyll输出即可。
+```html
+<span data-icon='ei-sc-pinterest' data-size='s'></span>
+```
 
-我个人也在折腾一个脚本，目前还没有完全debug清楚，不管如何，请先在lofter里导出一下，存在本地也是好的，贴吧可以让2017以前所有内容全部消失，中国互联网，没什么不可能发生的。
+Vimeo
 
-## 致谢
+```html
+<span data-icon='ei-sc-vimeo' data-size='s'></span>
+```
 
-* [Jekyll](https://github.com/jekyll/jekyll) - 这是本站存在的根基
-* [Kiko-now](<https://github.com/aweekj/kiko-now>) - 我首先是fork这个主题，然后再其上进行修改汉化，才有了LOFFER
-* [Font Awesome](<https://fontawesome.com/>) - 社交网络图标来自FontAwesome的免费开源内容
+Google Plus
 
+```html
+<span data-icon='ei-sc-google-plus' data-size='s'></span>
+```
 
+SoundCloud
 
-## 帮助这个项目
+```html
+<span data-icon='ei-sc-soundcloud' data-size='s'></span>
+```
 
-介绍更多人来使用它，摆脱lofter自由飞翔！
+Tumblr
 
-当然如果单说写同人的话，我还是建议大家都去AO3，但是自家博客自己架也很酷炫，你还可以选择很多其他的forkable Jeykll主题，GitHub上有很多，或者试试其他博客架设工具，例如Hexo，与代码斗其乐无穷。
+```html
+<span data-icon='ei-sc-tumblr' data-size='s'></span>
+```
 
-最后，回到[LOFFER](https://github.com/FromEndWorld/LOFFER)，给我点一个☆吧！
+Youtube
 
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/givemefive.png)
+```html
+<span data-icon='ei-sc-youtube' data-size='s'></span>
+```
+
+### Update favicon
+
+You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
+
+
+### Aspire Themes
+
+👉 Visit [**aspirethemes.com**](http://bit.ly/type-jekyll-github-link) for more Jekyll, Ghost, and WordPress themes.
+
+<img alt="Aspire Themes" src="https://user-images.githubusercontent.com/626005/63092640-afe17780-bf62-11e9-9ea9-546489bb282c.png">
