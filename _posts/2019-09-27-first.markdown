@@ -27,18 +27,30 @@ Life is hard. We should not give up hope. By the time we have given up, we are f
 ![alt](../../../../images/posts/first/5.png)
 ![alt](../../../../images/posts/first/6.png)
 
+2.clone项目到本地 :本地创建一个文件夹，然后把项目clone下来，就会看到如下。
+
+![alt](../../../../images/posts/first/7.png)
+![alt](../../../../images/posts/first/8.png)
+![alt](../../../../images/posts/first/9.png)
+
+3.选择自己喜欢的主题：下载主题，解压，然后将里面所有文件拷贝到.git同路径下 如下。
+
 [主题样式选择](http://jekyllthemes.org/)
 
+![alt](../../../../images/posts/first/10.png)
+![alt](../../../../images/posts/first/11.png)
+![alt](../../../../images/posts/first/12.png)
+
+4.配置主题：打开之前github pages，找到如下的url,然后在  ‘config’ 中配置,如下。
+
+![alt](../../../../images/posts/first/13.png)
+![alt](../../../../images/posts/first/15.png)
+
+5.写第一个简单博客：在如图的文件夹下创建 类似 2019-01-01-name.markdown的文件，一定是markdown格式。
+![alt](../../../../images/posts/first/16.png)
+![alt](../../../../images/posts/first/17.png)
+![alt](../../../../images/posts/first/18.png)
 
 
 
-
-> Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana
-
-Vim te case nihil oblique, has partem interpretaris ne, ad admodum accusamus nam. Usu utinam dissentias referrentur ne, vim accusam voluptua pertinacia no. Est no posse utinam inermis, brute errem mentitum et ius, te prompta albucius quo. In pro simul soleat regione.
-
-![alt](https://images.unsplash.com/photo-1433785567155-bf5530cab72c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1348aea714b9493fa61a09a8c01113e6)
-
-Ne reque offendit singulis mea, ad eos ferri doming nostrud. Duis suscipit usu ut, fuisset pericula ex est, et porro prompta his. Audire definiebas voluptatibus et duo, aperiam ocurreret ad nec. Vel ad nostrud principes. Ad liber congue iracundia sed, eirmod erroribus eam te, has veniam epicurei ea.
-
-Pri probo alterum aliquando an. Duo appetere laboramus intellegat ea, ex suas diam exerci vix. Mel simul debitis id, est nusquam fuisset mentitum in. Te mei iudico iisque.
+> 这里是引用
