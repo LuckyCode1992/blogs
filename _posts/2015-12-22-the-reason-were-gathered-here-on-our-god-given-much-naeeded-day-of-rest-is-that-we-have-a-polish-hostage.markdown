@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The 11：33
+title: The 11：38
 tags: [blogs/_posts/2015-12-22-if-you-have-an-opportunity-to-use-your-voice-you-should-use-it-all-the-time.markdown]
 image: 'images/posts/8.jpg'
 ---
