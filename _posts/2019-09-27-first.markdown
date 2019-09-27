@@ -1,21 +1,28 @@
 ---
 layout: post
 title: 搭建github pages教程
-tags: [标签1, 标签2, 标签3]
+tags: [教程, 博客, 简单]
 image: '/images/posts/8.jpg'
 ---
 Life is hard. We should not give up hope. By the time we have given up, we are finished. Chances are always there. We have to grab every single opportunity...to help, to love and to serve. To live our life happier, full of joy, we have to set our goal and even dream big. If we choose the shortest path in life, we will never learn. To be or not to be, we have to be SOMEBODY. The fastest way to gain love is to love others first! Do not hide your talent, your knowledge and your beautiful heart. Go for your dream and live for it.
 
-##### Todo
+### 开篇
 
-这是正文内容
+此次博客：
+* 记录自己的搭建过程，为其他人提供参考。
+* 针对有github账号，想要自己搭建博客的同学（没有账号可以自己免费申请）
 
-1. Ut at interdum nunc. Maecenas commodo turpis quis elementum gravida.
-2. Nunc ac sapien tellus. Quisque risus enim, tempus eget porttitor in, pellentesque vel urna.
-    Donec nibh massa, rutrum a sollicitudin eu,
-lacinia in lorem.
 
-##### Graphic design
+#### 内容
+
+基本步骤：
+1.
+
+[主题样式选择]: http://jekyllthemes.org/
+
+
+
+
 
 > Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana
 
