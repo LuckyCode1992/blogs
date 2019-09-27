@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The 11：48
+title: The 11：50
 tags: [2015-12-22-if-you-have-an-opportunity-to-use-your-voice-you-should-use-it-all-the-time.markdown]
-image: 'images/posts/8.jpg'
+image: '/images/posts/8.jpg'
 ---
 
 I can remember about 4 years ago, I started to make HTML templates for ThemeForest. Unfortunately, I failed to pass the quality stage and I was not getting enough feedback from them. I was getting a general sentence saying that my item is not ready yet and the design quality is not unique enough.
