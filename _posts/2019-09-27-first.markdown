@@ -27,7 +27,7 @@ Life is hard. We should not give up hope. By the time we have given up, we are f
 ![alt](../../../../images/posts/first/5.png)
 ![alt](../../../../images/posts/first/6.png)
 
-[主题样式选择]: http://jekyllthemes.org/
+[主题样式选择]: http://jekyllthemes.org/ "them"
 
 
 
