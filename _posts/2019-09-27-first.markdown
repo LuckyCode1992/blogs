@@ -16,7 +16,13 @@ Life is hard. We should not give up hope. By the time we have given up, we are f
 #### 内容
 
 基本步骤：
-1.
+1.创建github pages 项目
+![alt](/images/posts/first/1.png)
+![alt](/images/posts/first/2.png)
+![alt](/images/posts/first/3.png)
+![alt](/images/posts/first/4.png)
+![alt](/images/posts/first/5.png)
+![alt](/images/posts/first/6.png)
 
 [主题样式选择]: http://jekyllthemes.org/
 
