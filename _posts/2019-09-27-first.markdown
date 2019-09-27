@@ -1,0 +1,7 @@
+---
+layout: post
+title: 搭建github pages教程
+tags: [2015-12-22-if-you-have-an-opportunity-to-use-your-voice-you-should-use-it-all-the-time.markdown]
+image: '/images/posts/8.jpg'
+---
+手把手教你通过github 搭建个人博客
