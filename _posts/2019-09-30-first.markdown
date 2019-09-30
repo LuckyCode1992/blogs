@@ -11,7 +11,9 @@ Life is hard. We should not give up hope. By the time we have given up, we are f
 > Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。
 >Markdown 编写的文档后缀为 .md, .markdown。
 
+
 ### 内容：
+> 本次也是我第一次学习markdown，作为记录。也而已作为资料吧。
 
 
 ***
