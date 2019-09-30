@@ -1,0 +1,49 @@
+---
+layout: post
+title: markdown 简单使用
+tags: [教程, 博客, 简单]
+---
+Life is hard. We should not give up hope. By the time we have given up, we are finished. Chances are always there. We have to grab every single opportunity...to help, to love and to serve. To live our life happier, full of joy, we have to set our goal and even dream big. If we choose the shortest path in life, we will never learn. To be or not to be, we have to be SOMEBODY. The fastest way to gain love is to love others first! Do not hide your talent, your knowledge and your beautiful heart. Go for your dream and live for it.
+
+### 开篇：
+> Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+> Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。
+> Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。
+>Markdown 编写的文档后缀为 .md, .markdown。
+
+### 内容：
+
+
+
+
+
+
+***
+#### Markdown 标题
+
+##### 使用 = 和 - 标记一级和二级标题 :
+
+我是一级标题
+\= \= \=
+
+我是一级标题
+===
+
+我是二级标题
+\- \- \-
+
+我是二级标题
+---
+##### 使用 \# 表示标题 :
+\#
+# 我是标题
+\#\#
+## 我是标题
+\#\#\#
+### 我是标题
+\.\.\.\.
+\# \# \# \# \# \#
+###### 我是标题
+
+
+***
