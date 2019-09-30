@@ -88,12 +88,13 @@ ___粗斜体文本___
 
 <u>6.脚注:</u>
 
-写法：xxx[^abc]  
+写法：xxx[^abc]
 [^abc]:内容
 
 创建脚注格式类似这样 [^jiaozhu]。
+这是第二个脚注哦[^jiaozhu2]
 
-[^jiaozhu]: 这是脚注哦
-
+[^jiaozhu]: 这是脚注哦  
+[^jiaozhu2]:这是脚注2
 
 ***
