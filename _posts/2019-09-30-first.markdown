@@ -13,7 +13,7 @@ Life is hard. We should not give up hope. By the time we have given up, we are f
 
 
 ### 内容：
-> 本次也是我第一次学习markdown，作为记录。也而已作为资料吧。
+> 本次也是我第一次学习markdown，作为记录。也作为资料吧。
 
 
 ***
