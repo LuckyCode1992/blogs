@@ -38,6 +38,7 @@ Life is hard. We should not give up hope. By the time we have given up, we are f
 \#\#\#
 ### 我是标题
 \.\.\.\.
+
 \# \# \# \# \# \#
 ###### 我是标题
 ***
@@ -87,16 +88,10 @@ ___粗斜体文本___
 
 <u>6.脚注:</u>
 
-[^1]:脚注
 
-创建脚注格式类似这样 [^RUNOOB]。
+创建脚注格式类似这样 [^jiaozhu]。
 
-[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
-
-
-
-
-
+[^jiaozhu]: 这是脚注哦
 
 
 ***
