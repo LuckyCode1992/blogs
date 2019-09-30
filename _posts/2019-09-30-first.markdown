@@ -178,9 +178,9 @@ ___粗斜体文本___
 代码区块:
 代码区块使用 4 个空格或者一个制表符（Tab 键）
 
-  <?java
-  String a;
-  public void a(){
+  <?javascript
+  var a;
+  function a(){
 
   }
 
