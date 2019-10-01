@@ -209,8 +209,8 @@ $(document).ready(function () {
 这个链接用 百度 作为网址变量 [百度][baidu]
 然后在文档的结尾为变量赋值（网址）
 
-  [100]: www.baidu.com
-  [baidu]: www.baidu.com
+  [100]: https://www.baidu.com/
+  [baidu]: https://www.baidu.com/
 
 ```
 
@@ -223,9 +223,9 @@ $(document).ready(function () {
 
 然后在文档的结尾为变量赋值（网址）
 
-  [100]: www.baidu.com
+  [100]: https://www.baidu.com/
 
-  [baidu]: www.baidu.com
+  [baidu]: https://www.baidu.com/
 
 
 ***
