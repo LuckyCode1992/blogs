@@ -284,9 +284,6 @@ office和wps导出 表格为html，然后，再使用现成的表格的方式。
   <td class="xl70" x:num>39</td>
   <td class="xl71" x:num>2000</td>
  </tr>
- <![if supportMisalignedColumns]>
-  <tr width="0" style='display:none;'/>
- <![endif]>
 </table>
 
 ***
