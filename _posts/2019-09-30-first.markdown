@@ -256,37 +256,68 @@ $(document).ready(function () {
 ***
 ### Markdown 表格
 
-Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。
+说实在的，真的不喜欢markdown的表格，所以，打算后面有其他方式替代
 
-但是，我不会用这种方法，因为麻烦，我会用更好的方法：
+***
 
-office和wps导出 表格为html，然后，再使用现成的表格的方式。
+### Markdown 高级技巧
 
-1. wps（office） 建立表格，然后写好表格
-2. 另存为 选择html格式
-3. 用文档的方式打开，找到table标签，复制table标签所有的内容，然后就先看如下的表格
+##### 支持的 HTML 元素
+不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。
 
-<table width="288" border="0" cellpadding="0" cellspacing="0" style="width:216.00pt;border-collapse:collapse;table-layout:fixed;">
-   <colgroup><col width="72" span="4" style="width:54.00pt;">
-   </colgroup><tbody><tr height="18" style="height:13.50pt;">
-    <td class="xl65" height="18" width="72" style="height:13.50pt;width:54.00pt;" x:str="">name</td>
-    <td class="xl66" width="72" style="width:54.00pt;" x:str="">age</td>
-    <td class="xl67" width="72" style="width:54.00pt;" x:str="">money</td>
-    <td class="xl65" width="72" rowspan="3" style="width:54.00pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;" x:str="">合并</td>
-   </tr>
-   <tr height="18" style="height:13.50pt;">
-    <td class="xl65" height="18" style="height:13.50pt;" x:str="">hello</td>
-    <td class="xl68" x:num="">18</td>
-    <td class="xl69" align="right" x:num="">20</td>
-   </tr>
-   <tr height="18" style="height:13.50pt;">
-    <td class="xl65" height="18" style="height:13.50pt;" x:str="">kit</td>
-    <td class="xl70" x:num="">39</td>
-    <td class="xl71" x:num="">2000</td>
-   </tr>
-   <!--[if supportMisalignedColumns]-->
-    <tr width="0" style="display:none;">
-   <!--[endif]-->
-  </tr></tbody></table>
+目前支持的 HTML 元素有：
+~~~
+<kbd> <b> <i> <em> <sup> <sub> <br>等
+~~~
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+
+##### 转义
+
+Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：
+
+
+Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：
+~~~
+
+\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
+
+~~~
+
+##### 公式
+当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染
+
+~~~
+
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+
+~~~
+
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+
 
 ***
