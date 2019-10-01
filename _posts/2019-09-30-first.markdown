@@ -216,13 +216,41 @@ $(document).ready(function () {
 
 
 链接也可以用变量来代替，文档末尾附带变量地址:
+
 这个链接用 100 作为网址变量 [百度100][100]
-这个链接用 百度 作为网址变量 [百度][baidu]  
+
+这个链接用 百度 作为网址变量 [百度][baidu]
+
 然后在文档的结尾为变量赋值（网址）
 
   [100]: www.baidu.com
 
   [baidu]: www.baidu.com
 
+
+***
+### Markdown 图片
+
+~~~
+
+![alt 属性文本](图片地址)
+
+![alt 属性文本](图片地址 "可选标题")
+
+~~~
+
+- 开头一个感叹号 !
+- 接着一个方括号，里面放上图片的替代文字
+- 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 'title' 属性的文字。
+
+![alt 首页图片](../../../../images/posts/first/8.png)
+![alt 网络图片](http://c1.peakpx.com/wallpaper/1000/548/851/sydney-harbour-bridge-wallpaper-preview.jpg)
+
+如果需要指定图片高度，需要使用 img标签
+~~~
+<img src="http://c1.peakpx.com/wallpaper/1000/548/851/sydney-harbour-bridge-wallpaper-preview.jpg" width="50%">
+~~~
+
+<img src="http://c1.peakpx.com/wallpaper/1000/548/851/sydney-harbour-bridge-wallpaper-preview.jpg" width="50%">
 
 ***
