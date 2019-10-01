@@ -266,24 +266,27 @@ office和wps导出 表格为html，然后，再使用现成的表格的方式。
 2. 另存为 选择html格式
 3. 用文档的方式打开，找到table标签，复制table标签所有的内容，然后就先看如下的表格
 
-<table width="288" border="0" cellpadding="0" cellspacing="0" style='width:216.00pt;border-collapse:collapse;table-layout:fixed;'>
- <col width="72" span="4" style='width:54.00pt;'/>
- <tr height="18" style='height:13.50pt;'>
-  <td class="xl65" height="18" width="72" style='height:13.50pt;width:54.00pt;' x:str>name</td>
-  <td class="xl66" width="72" style='width:54.00pt;' x:str>age</td>
-  <td class="xl67" width="72" style='width:54.00pt;' x:str>money</td>
-  <td class="xl65" width="72" rowspan="3" style='width:54.00pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>合并</td>
- </tr>
- <tr height="18" style='height:13.50pt;'>
-  <td class="xl65" height="18" style='height:13.50pt;' x:str>hello</td>
-  <td class="xl68" x:num>18</td>
-  <td class="xl69" align="right" x:num>20</td>
- </tr>
- <tr height="18" style='height:13.50pt;'>
-  <td class="xl65" height="18" style='height:13.50pt;' x:str>kit</td>
-  <td class="xl70" x:num>39</td>
-  <td class="xl71" x:num>2000</td>
- </tr>
-</table>
+<table width="288" border="0" cellpadding="0" cellspacing="0" style="width:216.00pt;border-collapse:collapse;table-layout:fixed;">
+   <colgroup><col width="72" span="4" style="width:54.00pt;">
+   </colgroup><tbody><tr height="18" style="height:13.50pt;">
+    <td class="xl65" height="18" width="72" style="height:13.50pt;width:54.00pt;" x:str="">name</td>
+    <td class="xl66" width="72" style="width:54.00pt;" x:str="">age</td>
+    <td class="xl67" width="72" style="width:54.00pt;" x:str="">money</td>
+    <td class="xl65" width="72" rowspan="3" style="width:54.00pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;" x:str="">合并</td>
+   </tr>
+   <tr height="18" style="height:13.50pt;">
+    <td class="xl65" height="18" style="height:13.50pt;" x:str="">hello</td>
+    <td class="xl68" x:num="">18</td>
+    <td class="xl69" align="right" x:num="">20</td>
+   </tr>
+   <tr height="18" style="height:13.50pt;">
+    <td class="xl65" height="18" style="height:13.50pt;" x:str="">kit</td>
+    <td class="xl70" x:num="">39</td>
+    <td class="xl71" x:num="">2000</td>
+   </tr>
+   <!--[if supportMisalignedColumns]-->
+    <tr width="0" style="display:none;">
+   <!--[endif]-->
+  </tr></tbody></table>
 
 ***
