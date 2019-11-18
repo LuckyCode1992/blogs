@@ -1,0 +1,20 @@
+---
+layout: post
+title: 寻找问题的命令总结
+tags: [教程, 博客, 简单]
+---
+Life is hard. We should not give up hope. By the time we have given up, we are finished. Chances are always there. We have to grab every single opportunity...to help, to love and to serve. To live our life happier, full of joy, we have to set our goal and even dream big. If we choose the shortest path in life, we will never learn. To be or not to be, we have to be SOMEBODY. The fastest way to gain love is to love others first! Do not hide your talent, your knowledge and your beautiful heart. Go for your dream and live for it.
+
+### 开篇：
+> 这一篇文章 主要用来记录一些 可能会用到的寻找问题的命令 ，长期更新维护
+
+
+### 内容：
+#### android studio 相关：
+> gradlew compileDebugSources
+
+这个命令可以查找错误资源文件,比如xml找不到图片。
+
+> gradlew processDebugManifest --stacktrace
+
+可以查看 Manifest merger failed with multiple errors, see logs的问题
